@@ -46,7 +46,7 @@ Key design goals:
 ## Installation
 
 ### Prerequisites
-- Java 8+  
+- Java 17+  
 - [SBT](https://www.scala-sbt.org/) (Scala Build Tool)
 
 ### Steps
@@ -85,7 +85,6 @@ Team1 Goals1, Team2 Goals2
 - `Goals` must be a non-negative integer.
 - Example:
 Lions 3, Snakes 3
-Tarantulas 1, FC Awesome 0
 
 Invalid lines are **skipped** with a warning.
 
@@ -109,11 +108,11 @@ The leaderboard is printed as:
 ## Example
 
 ### Input
-Lions 3, Snakes 3
-Tarantulas 1, FC Awesome 0
-Lions 1, FC Awesome 1
-Tarantulas 3, Snakes 1
-Lions 4, Grouches 0
+- Lions 3, Snakes 3
+- Tarantulas 1, FC Awesome 0
+- Lions 1, FC Awesome 1
+- Tarantulas 3, Snakes 1
+- Lions 4, Grouches 0
 
 ### Output
 1. Tarantulas, 6 pts
@@ -148,17 +147,6 @@ While this project is fully functional, the following enhancements could improve
 - **Improved CLI options**: flags for input/output files, verbose logging.
 - **Better logging**: integrate a logging library instead of `println`.
 - **Docker container**: for easy deployment and portability.
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`
-3. Make your changes.
-4. Submit a pull request.
 
 ---
 
