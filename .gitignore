@@ -1,0 +1,16 @@
+# Scala / SBT
+target/
+project/target/
+lib_managed/
+src_managed/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
