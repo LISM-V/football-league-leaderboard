@@ -65,8 +65,7 @@ sbt test
 ## Usage
 
 # 1. Using a text file as input:
-sbt "run path/to/matches.txt"
-sbt "run input.txt"
+sbt "run path/to/matches.txt" | sbt "run input.txt"
 
 # 2. Using stdin:
 sbt run
