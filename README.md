@@ -14,7 +14,6 @@ A **command-line application** that calculates the ranking table for a football 
 - [Example](#example)
 - [Running Tests](#running-tests)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
